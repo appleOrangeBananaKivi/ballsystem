@@ -1,0 +1,6 @@
+host: s2.agoyli.com
+user: begenc
+password: begenc2test begenc2password
+path: /home/begenc/www/bal.eduboxtm.com
+WiseSSH
+FileZilla

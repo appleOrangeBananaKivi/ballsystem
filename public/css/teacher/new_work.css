@@ -1,0 +1,65 @@
+#new_work_div{
+	text-align: left;
+	background-color: white;
+	padding: 25px;
+	height: 360px;
+}
+#new_work_div h5{
+	margin-bottom: 1px;
+}
+#new_work_div p{
+	margin-bottom: 30px;
+}
+.inner_work_type_container{
+	display: none;
+}
+#new_work_form label{
+	display: inline-block;
+	width: 180px;
+	margin-bottom: 25px;
+}
+#folder_pic_div{
+	height: 260px;
+	line-height: 260px;
+	vertical-align: middle;	
+	background-color: white;
+	text-align: center;
+}
+#folder_pic_div img{
+	width: 80%;	
+	height: 80%;
+}
+.new_work_name_input{
+	width: 180px;
+	background-color: rgba(22, 119, 247, 0.1);
+	border: none;
+	border-bottom: 2px solid rgb(210, 210, 210);
+	border-radius: 4px 4px 0 0;
+	transition: border-color 0.3s;
+}
+.new_work_name_input:focus{
+	outline: none;
+	border-color: rgb(188,61,202);
+}
+#new_work_form select{
+	width: 180px;
+	height: 30px;
+	background-color: rgba(22, 119, 247, 0.1);
+	border: 2px solid rgb(210, 210, 210);
+	border-radius: 4px;
+}
+#new_work_form select:focus{
+	outline: none;
+	border-color: rgb(188, 61, 202);
+}
+#new_work_submit{
+	display: block;
+	width: 80px;
+	border: 2px solid rgb(210, 210, 210);
+	border-radius: 4px;
+	margin: auto;
+	transition: border-color 0.3s;
+}
+#new_work_submit:hover{
+	border-color: rgb(188, 61, 202);
+}

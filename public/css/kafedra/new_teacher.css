@@ -1,0 +1,51 @@
+#new_teacher_div{
+	text-align: left;
+	background-color: white;
+	padding: 25px;
+	height: 320px;
+}
+#new_teacher_div h5{
+	margin-bottom: 1px;
+}
+#new_teacher_div p{
+	margin-bottom: 30px;
+}
+#new_teacher_form label{
+	display: inline-block;
+	width: 180px;
+	margin-bottom: 25px;
+}
+#teacher_pic_div{
+	height: 260px;
+	line-height: 260px;
+	vertical-align: middle;	
+	background-color: white;
+	text-align: center;
+}
+#teacher_pic_div img{
+	width: 50%;	
+	height: 40%;
+}
+.new_teacher_input{
+	width: 180px;
+	background-color: rgba(22, 119, 247, 0.1);
+	border: none;
+	border-bottom: 2px solid rgb(210, 210, 210);
+	border-radius: 4px 4px 0 0;
+	transition: border-color 0.3s;
+}
+.new_teacher_input:focus{
+	outline: none;
+	border-color: rgb(188,61,202);
+}
+#new_teacher_submit{
+	display: block;
+	width: 80px;
+	border: 2px solid rgb(210, 210, 210);
+	border-radius: 4px;
+	margin: auto;
+	transition: border-color 0.3s;
+}
+#new_teacher_submit:hover{
+	border-color: rgb(188, 61, 202);
+}

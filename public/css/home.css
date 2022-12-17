@@ -1,0 +1,210 @@
+#header{
+	background-image: url('../pic/bgcolor.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+/* Navbar */
+#navbar{
+	height: 100px;
+	padding: 10px 0 10px 0;
+}
+#navbar img{
+	width: 100px;
+	height: 80px;
+}
+#nav ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#nav li{
+	float: left;
+	margin-right: 80px;
+	line-height: 80px;
+	vertical-align: middle;
+}
+#nav a{
+	color:  white;
+	padding-bottom: 3px;
+	position: relative;
+	font-weight: bold;
+}
+#nav a:hover{
+	text-decoration: none;
+}
+.draw {
+	transition: color 0.25s;
+}
+.draw::after {
+	box-sizing: inherit;
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border: 3px solid transparent;
+	width: 0;
+	height: 0;
+}
+.draw::after {
+	bottom: 0;
+	left: -5px;
+}
+.draw:hover {
+	color: rgb(14, 183, 218);
+}
+.draw:hover::after {
+	width: 140%;
+	height: 100%;
+}
+.draw:hover::after {
+	border-bottom-color: rgb(14, 183, 218);
+	transition: width 0.25s ease-out, height 0.25s ease-out 0.25s;
+}
+#logInLink{
+	line-height: 50px;
+	vertical-align: middle;
+}
+#logInLink a{
+	display: inline-block;
+	margin-top: 15px;
+	width: 120px;
+	height: 50px;
+	border-radius: 30px;
+	background-color: rgb(205, 100, 255);
+	color: white;	
+	transition: background-color 0.8s, color 0.8s;
+}	
+#logInLink a:hover{
+	text-decoration: none;
+	background-color: white;
+	color: dodgerblue;
+}
+
+/* Welcome div */
+#welcome_div{
+	margin-top: 170px;
+	color: white;
+}
+#welcome_description{
+	margin-top: 25px;
+}
+#start_now{
+	display: inline-block;
+	width: 250px;
+	height: 60px;
+	line-height: 60px;
+	vertical-align: middle;
+	margin-top: 25px;
+	color: white;
+	background-color: rgb(64, 77, 255);
+	border-radius: 40px;
+	transition: background-color 0.5s;
+}
+#start_now:hover{
+	background-color: rgb(205, 100, 255);
+	text-decoration: none;
+}
+#welcome_screen_div{
+	margin-top: 80px;
+}
+#welcome_screen_div img{
+	width: 100%;
+}
+
+/* Features presentation */
+#presentation_description{
+	margin-top: 25px;
+	margin-bottom: 80px;
+}
+.feature_block{
+	padding: 20px;
+	border: 1px solid rgb(200, 200, 200);
+	text-align: left;
+	margin-right: 25px;
+	margin-bottom: 25px;
+	transition: box-shadow 0.4s;
+}
+.feature_block:hover{
+	box-shadow: 4px 4px 10px #bbb;
+}
+.feature_block div{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	margin: 25px 0 25px 0;
+	background-color: white;
+}
+.feature_block img{
+	margin: 20px;
+	width: 40px;
+	height: 40px;
+}
+.feature_block h4{
+	margin-bottom: 20px;
+}
+
+/* Footer */
+#footer{
+	margin-top: 100px;
+	height: 340px;
+	background-color: rgb(29, 37, 71);
+	text-align: left;
+}
+#footer div{
+	margin: auto;
+}
+#footer_contact{
+	padding-right: 140px;
+}
+#footer img{
+	width: 140px;
+	height: 140px;
+}
+#footer h4{
+	color: white;
+	margin-bottom: 30px;
+}
+#footer a{
+	display: inline-block;
+	color: rgb(123, 130, 245);
+	margin-bottom: 15px;
+	transition: color 0.3s;
+}
+#footer a:hover{
+	color: white;
+}
+#footer_contact h6{
+	color: white;
+	margin-bottom: 25px;
+	color: rgb(123,130,245);
+}
+#footer_contact a{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: rgb(39, 47, 90); 
+	color: rgb(123, 130, 245);
+	transition: background-color 0.4s, color 0.4s;
+	margin-right: 10px;	
+	text-align: center;
+	line-height: 40px;
+	vertical-align: middle;
+}
+#footer_contact a:hover{
+	background-color: rgb(64, 77, 255);
+	color: white;
+}
+#footer_contact a img{
+	width: 25px;
+	height: 25px;
+	margin-top: 7.5px;
+}
+#footer_copyright{
+	color: rgb(123, 130, 245);
+	text-align: center;
+	font-size: 20px;
+	background-color: rgb(29, 37, 71);
+	padding-bottom: 25px;
+}

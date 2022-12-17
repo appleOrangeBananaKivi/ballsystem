@@ -1,0 +1,114 @@
+#info_divs_container{
+	margin-top: 15px;
+}
+.info_div{
+	height: 100px;
+	background-color: white;
+	margin: 15px;
+	transition: box-shadow 0.4s, transform 0.4s;
+}
+.info_div:hover{
+	box-shadow: 4px 4px 10px #bbb;
+	transform: scale(1.05);
+}
+.info_div > div:first-child{
+	float: left;
+	width: 50%;
+	text-align: left;
+
+}
+.info_div > div:first-child h4{
+	text-align: center;
+	line-height: 100px;
+	vertical-align: middle;
+}
+.info_div > div:first-child a{
+	padding: 0;
+}
+.info_div > div:first-child p{
+	font-size: 14px;
+}
+.info_div > div:last-child{
+	display: flex;
+	width: 50%;
+	float: left;
+	padding-top: 14.5px;
+	justify-content: center;
+}
+.info_div > div:last-child span{
+	display: inline-block;
+	width: 71px;
+	height: 71px;
+	line-height: 71px;
+	vertical-align: middle;
+	border-radius: 50%;
+	text-align: center;
+	background-color: rgb(188, 61, 202);
+	color: white;
+	transition: background-color 0.4s;
+}
+#check_img_div{
+	line-height: 100px;
+	vertical-align: middle;
+}
+#check_img_div img{
+	height: 60%;
+}
+
+/* Work date */
+#work_date{
+	margin: 15px;
+	background-color: white;
+	padding: 25px;
+	text-align: center;
+}
+#work_date p{
+	text-align: center;
+}
+
+/* Work files */
+#work_files{
+	margin-top: 15px;
+}
+
+/* Work files table */
+#work_files_table_div > table{
+	width: 100%;
+	text-align: left;
+}
+
+/* Table columns widthing */
+#work_files_table_div > table th:nth-child(1){
+	width: 5%;
+}
+#work_files_table_div > table th:nth-child(2){
+	width: 60%;
+}
+#work_files_table_div > table th:nth-child(3){
+	width: 17.5%;
+}
+#work_files_table_div > table th:nth-child(4){
+	width: 17.5%;
+}
+#work_files_table_div > table th{
+	border-bottom: 1px solid rgb(230, 230, 230);
+	padding-bottom: 15px;
+	color: #bbb;
+}
+#work_files_table_div > table td{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#work_files_table_div > table a{
+	color: rgb(22, 119, 247);
+	transition: color 0.4s;
+}
+#work_files_table_div > table a:hover{
+	color: rgb(188, 61, 202);
+	text-decoration: none;
+}
+
+/* File upload */
+#upload_file{
+	margin-top: 30px;
+}

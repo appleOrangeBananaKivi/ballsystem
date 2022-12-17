@@ -1,0 +1,122 @@
+/* Left sidebar */
+#sidebar_left{
+	padding: 25px;
+	height: 100vh;
+	background-color: rgb(188, 61, 202);
+}
+#sidebar_left #logo img{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin-bottom: 45px;
+}
+#sidebar_left a:not(#logo){
+	text-align: left;
+	display: inline-block;
+	width: 175px;
+	height: 50px;
+	line-height: 50px;
+	vertical-align: middle;
+	border-radius: 8px;
+	margin-bottom: 25px;
+	color: white;
+	text-decoration: none;
+	transition: background-color 0.3s;
+}
+#sidebar_left a:hover:not(#selected_sidebar_link):not(#logo){
+	background-color: rgba(22, 119, 247, 0.3);
+}
+.menu_link img{
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	margin-left: 20px;
+}
+#sidebar_left a i{
+	margin: auto;
+}
+#selected_sidebar_link{
+	background-color: rgba(22, 119, 247, 0.5);
+}
+#sidebar_right{
+	background-color: white;
+	height: 100vh;
+}
+
+/* Main content */
+#main{
+	padding: 25px;
+}
+
+/* Right sidebar */
+#sidebar_right{
+	padding: 25px;
+}
+#sidebar_right h5{
+	margin-bottom: 1px;
+}
+#sidebar_right h5, p{
+	text-align: left;
+}
+.right_sidebar_list_item{
+	width: 100%;
+	background-color: rgb(250, 250, 250);
+	border-radius: 10px;
+	transition: box-shadow 0.4s, transform 0.4s;
+	margin-top: 25px;
+}
+.right_sidebar_list_item:hover{
+	transform: scale(1.05);
+	box-shadow: 4px 4px 10px #bbb;
+}
+.right_sidebar_list_item:hover div > div:first-child{
+	background-color: rgb(188, 61, 202);
+	transition: background-color 0.4s;
+}
+.right_sidebar_list_item > div > div:first-child{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(230, 230, 230);
+	color: white;
+}
+.right_sidebar_list_item > div > div:last-child{
+	padding-top: 10px;
+}
+.right_sidebar_list_item h5{
+	font-size: 16px;
+}
+.right_sidebar_list_item p{
+	font-size: 14px;
+}
+
+/* Content div */
+.content_div{
+	margin: 15px;
+	background-color: white;
+	padding: 25px;
+}
+.content_div h5{
+	margin-bottom: 1px;
+}
+.content_div h5, p{
+	text-align: left;
+}
+
+/* Search */
+#search_div{
+	background-color: white;
+	height: 40px;
+}
+#search_img_container{
+	display: inline-block;
+	width: 3%;
+}
+#search_img_container i{
+	margin-top: 10px;
+}
+#search{
+	border: none;
+	width: 96%;
+	height: 35px;
+}

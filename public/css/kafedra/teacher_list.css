@@ -1,0 +1,92 @@
+#work_list_table > table{
+	width: 100%;
+	text-align: left;
+	margin-top: 25px;
+}
+
+/* Table columns widthing */
+#work_list_table > table th{
+	border-bottom: 1px solid rgb(230, 230, 230);
+	padding-bottom: 15px;
+	color: #bbb;
+}
+#work_list_table > table td{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#work_list_table > table a{
+	color: rgb(22, 119, 247);
+	transition: color 0.4s;
+}
+#work_list_table > table a:hover{
+	color: rgb(188,61,202);
+	text-decoration: none;
+}
+
+/* Select elements */
+.main_select{
+	display: none;
+}
+.custom_select_selected{
+	width: 160px;
+	height: 35px;
+	line-height: 35px;
+	vertical-align: middle;
+	border: 1px solid #bbb;
+	border-radius: 7px;
+	display: flex;
+	justify-content: center;
+	position: relative;	
+}
+.custom_select_selected:hover div{
+	display: block;
+}
+.custom_select_selected i{
+	display: block;
+	margin-top: 8px;
+	float: left;
+	width: 11%;
+}
+.custom_select_selected span{
+	display: block;
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+	width: 55%;
+}
+.custom_select_div{
+	width: 160px;
+	line-height: 35px;
+	vertical-align: middle;
+	border: 1px solid #bbb;
+	border-radius: 7px;
+	position: absolute;
+	left: 1px;
+	top: 35px;
+	display: none;
+	background-color: white;
+	z-index: 1;
+}
+.custom_select_div > div{
+	transition: background-color 0.4s, color 0.4s;
+}
+.custom_select_div > div:not(:last-child){
+	border-bottom: 1px solid #bbb;
+}
+.custom_select_div > div:hover{
+	background-color: rgb(188,61,202);
+	color: white;
+	cursor: pointer;
+}
+#filter_submit{
+	width: 60px;
+	height: 35px;
+	border-radius: 7px;
+	background-color: rgb(22, 119, 247);
+	color: white;
+	transition: background-color 0.4s;
+	border: none;
+}
+#filter_submit:hover{
+	background-color: rgb(188,61,202);
+}
